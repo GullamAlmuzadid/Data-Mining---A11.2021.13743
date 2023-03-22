@@ -1,0 +1,14 @@
+Berikut adalah tahapan preprocessing dan analisa data yang dapat dilakukan pada dataset top 100 movies dari 2003 hingga 2022 yang berasal dari iMDB:
+
+Tahap Preprocessing:
+a. Load Data: Data dapat diambil dari sumber data iMDB atau file CSV yang tersedia.
+
+b. Cleaning Data: Data cleaning dapat mencakup penghapusan karakter khusus, mengkonversi format data yang tidak sesuai, dan menghilangkan kolom yang tidak relevan.
+
+c. Mengisi Missing Value: Dataset iMDB dapat mengandung missing value. Sebelum memulai analisis, pastikan untuk mengecek setiap kolom dan mengisi nilai yang hilang menggunakan metode seperti imputasi atau penggantian nilai rata-rata.
+
+d. Normalisasi Data: Dataset iMDB dapat mengandung data dengan skala yang berbeda-beda. Tahap normalisasi dapat mencakup mengubah satuan dari suatu kolom agar memiliki skala yang sama atau melakukan transformasi data seperti logaritmik atau standarisasi.
+
+e. Encoding Data: Dataset iMDB dapat mengandung data kategorikal. Tahap encoding dapat mencakup mengubah data kategorikal menjadi data numerik agar dapat dimasukkan ke dalam algoritma pemodelan.
+
+f. Feature Selection: Dataset iMDB dapat mengandung banyak kolom yang tidak relevan untuk analisis atau kolom yang memiliki korelasi tinggi. Tahap feature selection dapat mencakup penghapusan kolom yang tidak relevan dan mengidentifikasi kolom yang saling berkorelasi tinggi untuk memilih satu kolom yang paling representatif
